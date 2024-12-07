@@ -1,0 +1,13 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "target": "es2018",
+    "moduleResolution": "node",
+    "lib": ["esnext", "dom"],
+    "types": ["@nuxt/types", "@types/node"]
+  }
+}
